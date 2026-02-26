@@ -1,0 +1,424 @@
+<!doctype html>
+<html class="light" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Oliveros: Emergencias Accesibles</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#4a69bd",
+              secondary: "#78a75a",
+              "background-light": "#f1f5f9",
+              "background-dark": "#0f172a",
+              "emergency-red": "#dc2626",
+            },
+            fontFamily: {
+              display: ["Inter", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "1rem",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      body {
+        font-family: "Inter", sans-serif;
+        -webkit-tap-highlight-color: transparent;
+        min-height: max(884px, 100dvh);
+      }
+      .ios-blur {
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 1,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+    </style>
+    <style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark min-h-screen text-slate-900 dark:text-slate-100 transition-colors duration-300"
+  >
+    <header class="pt-8 pb-4 px-6 flex flex-col items-center">
+      <div class="w-full max-w-[240px] mb-2">
+        <img
+          alt="Comuna de Oliveros Logo"
+          class="w-full h-auto object-contain dark:brightness-110"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1WiWnJQeLc1GIUnLQLN-nh070kPJKef3Ho6FmpMGolnArNCU0Wv7772HltV6ycEfhpqR47bnstJ8JF3B7Vv2XpdusnbKOF37q6jt31qRiuBBOlR-1nzHTfdJWCUB8zLBkAkBkGLaE33aU_WMEA9Wna_Vm7xuOMU5q-ci9FuT0Mwkaq33muH5DRiFuu6Xre9GL-GfAtJ_AU78Pw3VUqy8tkw2KNTBokuV1kcc3QBkTYj9ZpyXB8I-Mq3QXgVqhx9YCZiWHvAKfnWI"
+        />
+      </div>
+      <p
+        class="text-slate-500 dark:text-slate-400 text-[10px] font-bold tracking-[0.2em] uppercase"
+      >
+        Portal de Servicios
+      </p>
+    </header>
+    <main class="px-5 pb-32 space-y-8 max-w-md mx-auto">
+      <section class="space-y-4">
+        <h3
+          class="px-2 font-extrabold text-2xl text-emergency-red dark:text-red-500 flex items-center gap-2"
+        >
+          <span class="material-symbols-outlined text-3xl">emergency</span>
+          Emergencias
+        </h3>
+        <div class="flex flex-col gap-4">
+          <div
+            class="bg-white dark:bg-slate-800 border-2 border-red-600 dark:border-red-500 rounded-3xl p-4 flex items-center shadow-lg"
+          >
+            <div class="bg-red-600 text-white p-3 rounded-2xl mr-4">
+              <span class="material-icons-round text-4xl">local_police</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <p
+                class="text-sm font-bold uppercase text-slate-500 dark:text-slate-400 tracking-wider"
+              >
+                Policía
+              </p>
+              <p
+                class="text-2xl font-black text-slate-900 dark:text-white truncate"
+              >
+                03476 498020
+              </p>
+            </div>
+            <a
+              class="ml-2 bg-red-600 active:bg-red-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-md active:scale-90 transition-transform"
+              href="tel:03476498020"
+            >
+              <span class="material-icons-round text-3xl">call</span>
+            </a>
+          </div>
+          <div
+            class="bg-white dark:bg-slate-800 border-2 border-red-600 dark:border-red-500 rounded-3xl p-4 flex items-center shadow-lg"
+          >
+            <div class="bg-red-600 text-white p-3 rounded-2xl mr-4">
+              <span class="material-icons-round text-4xl">fire_truck</span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <p
+                class="text-sm font-bold uppercase text-slate-500 dark:text-slate-400 tracking-wider"
+              >
+                Bomberos
+              </p>
+              <p
+                class="text-2xl font-black text-slate-900 dark:text-white truncate"
+              >
+                03476 498300
+              </p>
+            </div>
+            <a
+              class="ml-2 bg-red-600 active:bg-red-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-md active:scale-90 transition-transform"
+              href="tel:03476498300"
+            >
+              <span class="material-icons-round text-3xl">call</span>
+            </a>
+          </div>
+          <div
+            class="bg-white dark:bg-slate-800 border-2 border-red-600 dark:border-red-500 rounded-3xl p-4 flex items-center shadow-lg"
+          >
+            <div class="bg-red-600 text-white p-3 rounded-2xl mr-4">
+              <span class="material-icons-round text-4xl"
+                >medical_services</span
+              >
+            </div>
+            <div class="flex-1 min-w-0">
+              <p
+                class="text-sm font-bold uppercase text-slate-500 dark:text-slate-400 tracking-wider"
+              >
+                SIES / Ambulancia
+              </p>
+              <p
+                class="text-2xl font-black text-slate-900 dark:text-white truncate"
+              >
+                03476 498107
+              </p>
+            </div>
+            <a
+              class="ml-2 bg-red-600 active:bg-red-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-md active:scale-90 transition-transform"
+              href="tel:03476498107"
+            >
+              <span class="material-icons-round text-3xl">call</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 rounded-3xl p-6 shadow-sm"
+      >
+        <div class="flex items-center gap-4 mb-6">
+          <div
+            class="w-12 h-12 bg-primary/10 dark:bg-primary/20 rounded-2xl flex items-center justify-center"
+          >
+            <span class="material-icons-round text-primary text-3xl"
+              >radio</span
+            >
+          </div>
+          <div class="flex-1">
+            <h2 class="font-bold text-lg leading-tight">Radio Oliveros</h2>
+            <p
+              class="text-xs text-secondary font-semibold uppercase flex items-center gap-1.5"
+            >
+              <span class="relative flex h-2 w-2">
+                <span
+                  class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"
+                ></span>
+                <span
+                  class="relative inline-flex rounded-full h-2 w-2 bg-secondary"
+                ></span>
+              </span>
+              En Vivo
+            </p>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div
+            class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-full overflow-hidden"
+          >
+            <div class="bg-primary h-full w-1/3 rounded-full"></div>
+          </div>
+          <div class="flex items-center justify-between">
+            <button
+              class="p-2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+            >
+              <span class="material-icons-round text-2xl">skip_previous</span>
+            </button>
+            <button
+              class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-lg shadow-primary/25 active:scale-95 transition-transform"
+            >
+              <span class="material-icons-round text-4xl">play_arrow</span>
+            </button>
+            <button
+              class="p-2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
+            >
+              <span class="material-icons-round text-2xl">skip_next</span>
+            </button>
+          </div>
+          <div class="flex items-center gap-3 pt-2">
+            <span class="material-icons-round text-slate-400 text-lg"
+              >volume_down</span
+            >
+            <input
+              class="w-full h-1.5 bg-slate-100 dark:bg-slate-700 rounded-lg appearance-none cursor-pointer accent-primary"
+              type="range"
+              value="70"
+            />
+            <span class="material-icons-round text-slate-400 text-lg"
+              >volume_up</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="space-y-4">
+        <div class="flex items-center justify-between px-2">
+          <h3 class="font-bold text-lg text-slate-800 dark:text-slate-200">
+            Agenda de Eventos
+          </h3>
+          <a class="text-xs font-semibold text-primary" href="#">Ver todos</a>
+        </div>
+        <div class="flex gap-4 overflow-x-auto hide-scrollbar pb-2 -mx-5 px-5">
+          <div
+            class="flex-none w-64 bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 rounded-3xl overflow-hidden shadow-sm"
+          >
+            <div class="h-32 bg-slate-200 dark:bg-slate-700 relative">
+              <img
+                alt="Evento"
+                class="w-full h-full object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCr_dmSP1dZC048kLPXRfMoZFP_b3ydJMlCipZJEwj9YD8zKijrjXb34ZJUe3d2gVkGruIMBbkHH7mnawMETaNr-Az7_MYLIpJyBRsprfgc_KlQj77JIQ5HPHlkC79XZFFKdKi2otOef1tYr1-Yr7U-I_cH_kuWRXKoR47aYJDExSYtJoPock4cDZsIhHnRXt5fMrs_1hqysmt0CdTQYFkqvWbXhMiULIkcZCbyYZbKw9wK5fsyTg2xZbkmCgPIpJal5j4WOJBB79U"
+              />
+              <div
+                class="absolute top-3 left-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-2 py-1 rounded-lg text-center min-w-[40px]"
+              >
+                <span class="block text-[10px] font-bold uppercase text-primary"
+                  >Oct</span
+                >
+                <span class="block text-sm font-black">24</span>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="font-bold text-sm mb-1 line-clamp-1">
+                Feria de Artesanos Regionales
+              </h4>
+              <p
+                class="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1"
+              >
+                <span class="material-icons-round text-xs">place</span> Plaza
+                Central
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex-none w-64 bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 rounded-3xl overflow-hidden shadow-sm"
+          >
+            <div class="h-32 bg-slate-200 dark:bg-slate-700 relative">
+              <img
+                alt="Evento"
+                class="w-full h-full object-cover"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6Oqz5SdBJBbazlFM5zlZ-yCR5wCqtrKfPdnE-g8qpdEVuGANHsUEMqXerBt9TeSOBDAHooCMWePIDNUWTaOppkOEL-01fv15I00RgvUtu4ofUL5BTTEGV9P0g6xVyxCQc1n-A3O6i_U9CC1r1b20CzTzygs348imF3mS0G_ltsuBrbbz74scMkezyI8siHjfuYOEg0V9Bx32ggf5w7eclkCfrT5vzB3bQcHoBSfUCxX7bivT9vKnJLLef9K4NGCPpkz2zaz45fGc"
+              />
+              <div
+                class="absolute top-3 left-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-2 py-1 rounded-lg text-center min-w-[40px]"
+              >
+                <span class="block text-[10px] font-bold uppercase text-primary"
+                  >Nov</span
+                >
+                <span class="block text-sm font-black">02</span>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="font-bold text-sm mb-1 line-clamp-1">
+                Festival de Música Local
+              </h4>
+              <p
+                class="text-xs text-slate-500 dark:text-slate-400 flex items-center gap-1"
+              >
+                <span class="material-icons-round text-xs">place</span> Predio
+                del Ferrocarril
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="space-y-4">
+        <h3 class="px-2 font-bold text-lg text-slate-700 dark:text-slate-300">
+          Enlaces de Interés
+        </h3>
+        <div class="grid grid-cols-2 gap-4">
+          <a
+            class="bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 p-4 rounded-3xl flex flex-col items-center text-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+            href="#"
+          >
+            <div
+              class="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-full flex items-center justify-center"
+            >
+              <span class="material-icons-round">language</span>
+            </div>
+            <span class="text-sm font-semibold">Web Oficial</span>
+          </a>
+          <a
+            class="bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 p-4 rounded-3xl flex flex-col items-center text-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+            href="#"
+          >
+            <div
+              class="w-10 h-10 bg-secondary/10 dark:bg-secondary/20 text-secondary rounded-full flex items-center justify-center"
+            >
+              <span class="material-icons-round">location_on</span>
+            </div>
+            <span class="text-sm font-semibold">Ubicación</span>
+          </a>
+          <a
+            class="bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 p-4 rounded-3xl flex flex-col items-center text-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+            href="#"
+          >
+            <div
+              class="w-10 h-10 bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-full flex items-center justify-center"
+            >
+              <span class="material-icons-round">facebook</span>
+            </div>
+            <span class="text-sm font-semibold">Facebook</span>
+          </a>
+          <a
+            class="bg-white dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700/50 p-4 rounded-3xl flex flex-col items-center text-center gap-2 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors"
+            href="#"
+          >
+            <div
+              class="w-10 h-10 bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-400 rounded-full flex items-center justify-center"
+            >
+              <span class="material-icons-round">camera_alt</span>
+            </div>
+            <span class="text-sm font-semibold">Instagram</span>
+          </a>
+        </div>
+      </section>
+      <section
+        class="bg-slate-900 dark:bg-primary text-white p-6 rounded-3xl space-y-4"
+      >
+        <h3 class="font-bold text-lg">Contacto Comuna</h3>
+        <div class="space-y-3">
+          <div class="flex items-center gap-3">
+            <span
+              class="material-icons-round text-slate-400 dark:text-slate-100/60"
+              >call</span
+            >
+            <span class="text-sm">+54 3476 123456</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span
+              class="material-icons-round text-slate-400 dark:text-slate-100/60"
+              >email</span
+            >
+            <span class="text-sm">contacto@oliveros.gob.ar</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span
+              class="material-icons-round text-slate-400 dark:text-slate-100/60"
+              >schedule</span
+            >
+            <span class="text-sm">Lunes a Viernes 07:00 - 13:00</span>
+          </div>
+        </div>
+        <button
+          class="w-full bg-white text-slate-900 py-3 rounded-2xl font-bold text-sm active:scale-95 transition-transform"
+        >
+          Enviar un mensaje
+        </button>
+      </section>
+    </main>
+    <nav
+      class="fixed bottom-0 left-0 right-0 ios-blur bg-white/80 dark:bg-slate-900/80 border-t border-slate-200 dark:border-slate-800 px-8 py-3 pb-8 flex justify-between items-center z-50"
+    >
+      <button class="flex flex-col items-center gap-1 text-primary">
+        <span class="material-icons-round">home</span>
+        <span class="text-[10px] font-medium">Inicio</span>
+      </button>
+      <button class="flex flex-col items-center gap-1 text-slate-400">
+        <span class="material-icons-round">calendar_month</span>
+        <span class="text-[10px] font-medium">Agenda</span>
+      </button>
+      <button class="flex flex-col items-center gap-1 text-slate-400">
+        <span class="material-icons-round">payments</span>
+        <span class="text-[10px] font-medium">Trámites</span>
+      </button>
+      <button
+        class="flex flex-col items-center gap-1 text-slate-400"
+        onclick="document.documentElement.classList.toggle('dark')"
+      >
+        <span class="material-icons-round">contrast</span>
+        <span class="text-[10px] font-medium">Modo</span>
+      </button>
+    </nav>
+    <div class="h-10"></div>
+  </body>
+</html>
