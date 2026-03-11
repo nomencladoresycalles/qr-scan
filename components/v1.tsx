@@ -154,18 +154,22 @@ export default function V1() {
             <LinkCard
               icon={<Globe size={24} className="text-blue-500" />}
               label="Web Oficial"
+              href="https://oliveros.miportal.ar/"
             />
             <LinkCard
               icon={<MapPin size={24} className="text-green-500" />}
               label="Ubicación"
+              href="https://maps.app.goo.gl/zxjbGc6wv2PERETd6"
             />
             <LinkCard
               icon={<Facebook size={24} className="text-blue-600" />}
               label="Facebook"
+              href="https://www.facebook.com/comunadeoliveros/"
             />
             <LinkCard
               icon={<Instagram size={24} className="text-pink-500" />}
               label="Instagram"
+              href="https://www.instagram.com/comunadeoliveros/?hl=es"
             />
           </div>
         </section>
@@ -235,16 +239,27 @@ function EmergencyCard({
   );
 }
 
-function LinkCard({ icon, label }: { icon: ReactNode; label: string }) {
+function LinkCard({
+  icon,
+  label,
+  href,
+}: {
+  icon: ReactNode;
+  label: string;
+  href: string;
+}) {
   return (
-    <motion.button
-      whileHover={{ y: -2 }}
-      className="bg-white rounded-2xl p-6 flex flex-col items-center justify-center gap-3 shadow-sm border border-gray-50"
-    >
-      <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center">
-        {icon}
-      </div>
-      <span className="font-semibold text-sm text-[#1A1A1A]">{label}</span>
+    <motion.button whileHover={{ y: -2 }}>
+      <a
+        className="bg-white rounded-2xl p-6 flex flex-col items-center justify-center gap-3 shadow-sm border border-gray-50"
+        href={href}
+        target="_blank"
+      >
+        <div className="w-12 h-12 bg-gray-50 rounded-full flex items-center justify-center">
+          {icon}
+        </div>
+        <span className="font-semibold text-sm text-[#1A1A1A]">{label}</span>
+      </a>
     </motion.button>
   );
 }
