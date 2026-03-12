@@ -102,7 +102,7 @@ export default function V1() {
                     Monitoreo
                   </p>
                   <p className="text-2xl font-black text-slate-900 dark:text-white truncate">
-                    03476 498250
+                    03476 563296
                   </p>
                 </div>
                 <Phone size={24} />
@@ -120,7 +120,7 @@ export default function V1() {
                     Salud
                   </p>
                   <p className="text-2xl font-black text-slate-900 dark:text-white truncate">
-                    03476 498088
+                    03476 563307
                   </p>
                 </div>
                 <Phone size={24} />
