@@ -345,3 +345,352 @@ estimar cuánto tráfico podría conseguir
 y mostrarte cómo convertirla en una web que sí rankea.
 
 Solo dime y lo hacemos. Es un análisis bastante revelador.
+
+
+
+
+
+
+
+Buen enfoque. Si ya tenés ingresos de tu trabajo y querés **reinvertir una parte en algo con IA + publicidad para escalar**, la clave es buscar modelos que cumplan 3 cosas:
+
+* 🔁 **Automatizables con IA**
+* 📈 **Escalables con ads**
+* 💰 **Con ticket o volumen suficiente para recuperar ads**
+
+Te tiro **varias ideas reales que hoy se están usando** (de simple → más avanzadas).
+
+---
+
+# 1. Páginas de contenido viral + monetización
+
+Este modelo está explotando ahora mismo.
+
+### Cómo funciona
+
+1. Elegís **un nicho viral**
+2. Generás contenido con IA
+3. Crecés cuentas
+4. Monetizás con afiliados / productos / tráfico
+
+### Nichos que funcionan
+
+* curiosidades
+* historia
+* datos raros
+* misterio
+* psicología
+* finanzas simples
+* motivación
+
+### Automatización con IA
+
+* guiones → IA
+* voz → IA
+* clips → IA
+* edición → automatizada
+
+Herramientas usadas:
+
+* ChatGPT
+* CapCut
+* ElevenLabs
+
+### Ejemplo
+
+Cuenta TikTok:
+
+**“Datos que no sabías de la historia”**
+
+Video IA diario.
+
+Monetización:
+
+* afiliados de libros
+* tráfico a blog
+* patrocinadores
+
+💰 Mucha gente hace **$500–$5000/mes** con cuentas medianas.
+
+---
+
+# 2. Crear páginas web nicho con artículos IA
+
+Este es uno de los **modelos más rentables a largo plazo**.
+
+### Cómo funciona
+
+1. creás una web
+2. publicás **100-300 artículos con IA**
+3. posicionás en Google
+4. monetizás con:
+
+* ads
+* afiliados
+* productos
+
+### Nichos que funcionan
+
+* mascotas
+* jardinería
+* fitness
+* viajes
+* finanzas personales
+* tecnología
+
+Herramientas:
+
+* WordPress
+* Surfer SEO
+* ChatGPT
+
+### Inversión inicial
+
+* dominio
+* hosting
+* algo de SEO
+
+💰 Ejemplo real
+sitio nicho = **$1000-$10k / mes**
+
+---
+
+# 3. Crear un producto digital hecho con IA
+
+Muy bueno si querés **meter ads directo**.
+
+Ejemplos:
+
+### ebooks
+
+Ejemplo:
+
+* “Cómo empezar en trading”
+* “Guía de fitness en casa”
+* “Cómo generar ingresos con IA”
+
+Creado con IA.
+
+Precio:
+
+10-30 USD.
+
+### Funnel simple
+
+Ads → landing → compra.
+
+Herramientas:
+
+* Gumroad
+* Stripe
+
+---
+
+# 4. Agencia IA automatizada
+
+Esto es **muy rentable** si conseguís clientes.
+
+Servicios:
+
+* generación de contenido
+* videos IA para redes
+* automatización de marketing
+* chatbots
+
+Herramientas:
+
+* Make
+* Zapier
+* ChatGPT
+
+Clientes potenciales:
+
+* inmobiliarias
+* restaurantes
+* coaches
+* ecommerce
+
+💰 ticket típico
+$200–$1000 / mes por cliente.
+
+---
+
+# 5. Automatizar canales de YouTube
+
+Este modelo funciona muchísimo.
+
+Se llaman **YouTube automation channels**.
+
+### Nichos
+
+* historia
+* crimen
+* finanzas
+* curiosidades
+* top 10
+
+### Proceso
+
+1. guion IA
+2. voz IA
+3. clips stock
+4. subir video
+
+Herramientas:
+
+* Pictory
+* ElevenLabs
+* CapCut
+
+💰 monetización:
+
+* ads de YouTube
+* afiliados
+* sponsors
+
+Canales medianos → **$1000-$20k mes**.
+
+---
+
+# 6. Crear micro-SaaS con IA
+
+Más avanzado pero brutal.
+
+Ejemplo:
+
+herramienta que:
+
+* genera posts
+* hace captions
+* crea thumbnails
+* escribe emails
+
+La gente paga **suscripción mensual**.
+
+Herramientas:
+
+* Bubble
+* OpenAI API
+
+💰 SaaS pequeños hacen
+$2000-$50k/mes.
+
+---
+
+# 7. TikTok / Reels afiliados
+
+Este modelo es **muy rápido de probar**.
+
+### Ejemplo
+
+Cuenta:
+
+“gadgets de Amazon”
+
+Videos generados con IA.
+
+Monetización:
+
+* afiliados
+
+Herramientas:
+
+* CapCut
+* ChatGPT
+
+💰 Un video viral puede hacer **$500-$5000**.
+
+---
+
+# 8. Crear y vender prompts
+
+Hay mercado para esto.
+
+Ejemplo:
+
+* prompts para marketing
+* prompts para arte
+* prompts para negocios
+
+Se venden en:
+
+* PromptBase
+
+---
+
+# 9. Crear cuentas de Instagram automatizadas
+
+Ejemplo nichos:
+
+* frases motivacionales
+* psicología
+* productividad
+* negocios
+
+Todo generado con IA.
+
+Herramientas:
+
+* Canva
+* ChatGPT
+
+Monetización:
+
+* afiliados
+* sponsors
+* venta de cursos
+
+---
+
+# 10. Crear y vender plantillas IA
+
+Ejemplos:
+
+* plantillas Notion
+* plantillas Canva
+* prompts
+
+Plataformas:
+
+* Etsy
+* Gumroad
+
+---
+
+# Estrategia inteligente para invertir tu dinero
+
+Si tenés dinero para **probar cosas**, lo mejor es esto:
+
+### estrategia 80/20
+
+80% en **ads test**
+
+20% en **herramientas**
+
+Ejemplo:
+
+* $100 ads
+* $50 herramientas
+
+Testear:
+
+* 10 ideas
+* quedarte con la que funciona.
+
+---
+
+# Mi recomendación si querés ROI rápido
+
+Las 3 que más funcionan ahora:
+
+1️⃣ **cuentas virales + afiliados**
+2️⃣ **producto digital + ads**
+3️⃣ **agencia automatizada con IA**
+
+---
+
+💡 Si querés, también puedo tirarte:
+
+* **10 ideas MUY locas de negocios con IA que casi nadie está haciendo**
+* **3 modelos que pueden llegar a $10k/mes**
+* o **un sistema paso a paso para empezar con $200-$500**.
